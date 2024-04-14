@@ -1,9 +1,8 @@
 *{ 
-    .kanit-extralight {
-        font-family: "Kanit", sans-serif;
-        font-weight: 200;
-        font-style: normal;
-      }
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+      
       
     margin: 0px;
     padding: 0px;
@@ -11,4 +10,38 @@
     text-decoration: none;
     border-collapse: collapse;
     color: #000000;
+}
+
+.header{
+  display: flex;
+  width: 868px;
+  height: 80px;
+  margin: auto;
+  background-color: lightgray;
+}
+
+.search_area > form > input{
+  width: 200px;
+  height: 40px;
+  background: lightgray;
+  color: lightgray;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  line-height: 80px;
+  width: clac(868px - 300px);
+}
+
+.menu{
+  display: flex;
+}
+
+.menu > li{
+  margin-left: 70px;
+}
+
+.menu > li > a{
+  color: black;
 }
