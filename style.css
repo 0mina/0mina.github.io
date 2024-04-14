@@ -20,9 +20,16 @@
   background-color: lightgray;
 }
 
+.search_area{
+  margin-top: 28px;
+  width: 500px;
+  height: 60px;
+  padding-left: 40px;
+}
+
 .search_area > form > input{
-  width: 200px;
-  height: 40px;
+  width: 500px;
+  height: 60px;
   background: lightgray;
   color: lightgray;
 }
