@@ -12,40 +12,34 @@
     color: white;
 }
 
+
 .header{
-  display: flex;
-  width: flex;
   height: 400px;
-  margin: auto;
   background-color: black;
 }
 
 .search_area{
-  margin-top: 28px;
-  width: 500px;
-  height: 60px;
-  padding-left: 300px;
+  margin-left: 180px;
+  width: 300px;
+  height: 30px;
 }
 
 .logo{
-  dispaly: flex;
-  margin-top: 32px;
-  width: 500px;
+  display: flex;
+  margin-left: 30px; 
+  margin-top: -70px;
+  width: 150px;
   height: 40px;
 }
 
 .menu{
   display: flex;
-  margin-top: 32px;
+  margin-top: 15px;
   width: 500px;
   height: 40px;
-  padding-left: 300px;
+  margin-left: 1270px;
 }
 
-.menu > li {
-  margin-left: 80px;
-}
-
-.menu > li {
-  color: white;
+.menu > li{
+  margin-left: 90px;
 }
