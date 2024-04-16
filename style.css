@@ -27,11 +27,11 @@
   padding-left: 300px;
 }
 
-.search_area > form > input{
-  width: 300px;
-  height: 60px;
-  background: black;
-  color: black;
+.logo{
+  dispaly: flex;
+  margin-top: 32px;
+  width: 500px;
+  height: 40px;
 }
 
 .menu{
@@ -39,13 +39,13 @@
   margin-top: 32px;
   width: 500px;
   height: 40px;
-  padding-left: 500px;
+  padding-left: 300px;
 }
 
-.menu > li{
-  margin-left: 50px;
+.menu > li {
+  margin-left: 80px;
 }
 
-.menu > li > a{
+.menu > li {
   color: white;
 }
