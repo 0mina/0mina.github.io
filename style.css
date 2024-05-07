@@ -3,9 +3,6 @@
     font-weight: bold;
     font-style: normal;
       
-      
-    margin: 0px;
-    padding: 0px;
     list-style: none;
     text-decoration: none;
     border-collapse: collapse;
@@ -14,32 +11,36 @@
 
 
 .header{
-  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 3%;
   background-color: black;
 }
 
+body {
+  margin: 0%;
+}
+
 .search_area{
-  margin-left: 180px;
-  width: 300px;
-  height: 30px;
+  width: 350%;
+  height: 10%;
 }
 
 .logo{
   display: flex;
-  margin-left: 30px; 
-  margin-top: -70px;
-  width: 150px;
-  height: 40px;
+  width: 150%;
+  height: 10%;
+  font-size: 120%;
 }
 
 .menu{
   display: flex;
-  margin-top: 15px;
-  width: 500px;
-  height: 40px;
-  margin-left: 1270px;
+  width: 250%;
+  line-height: 10px;
+  font-size: 100%;
 }
 
 .menu > li{
-  margin-left: 90px;
+  display: flex;  
 }
